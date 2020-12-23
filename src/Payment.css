@@ -1,0 +1,58 @@
+.payment{
+margin-bottom: 100px;
+}
+.payment__container{
+    background-color: white;
+}
+.payment__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    border-bottom: 1px solid lightgrey;
+    background-color: rgb(234, 237, 237);
+    
+}
+
+.payment__setion{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgrey;
+
+}
+.payment__title{
+    flex: 0.2;
+}
+.payment__address, .payment__items{
+    flex: 0.8;
+}
+.payment__items{}
+.payment__details > form{
+ width: 400px;
+ border: 1px solid lightgrey;
+ border-radius: 5px;
+ padding: 20px;
+ /* background-color: lightgrey; */
+ 
+}
+.payment__details > form > div > button{
+    cursor: pointer;
+    background: #f0c14b;
+    border: 1p solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    width: 100%;
+}
+.payment__priceContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.subtotal__gift{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.subtotal__gift > input{
+    margin-right: 5px;
+}
